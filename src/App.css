@@ -1,0 +1,42 @@
+button {
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #ff5722; /* Оранжевый цвет */
+  color: #ffffff; /* Белый цвет */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Анимация смены цвета */
+  border-radius: 5px; /* Круглые углы */
+}
+
+button:hover {
+  background-color: #f44336; /* Красный цвет при наведении */
+}
+
+button.active {
+  background-color: #4caf50; /* Зеленый цвет при активации */
+}
+
+button.rotate {
+  animation: rotate 1s infinite linear; /* Анимация вращения */
+}
+
+button.scale {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Анимация масштабирования */
+}
+
+button.scale:hover {
+  transform: scale(1.2); /* Увеличиваем размер при наведении */
+}
+
+
+button.rotate:hover {
+  transform: scale(1.2); /* Увеличиваем размер при наведении */
+}
+
+button.rotate {
+  transform: scale(1);
+  transition: transform 0.3s ease; /* Анимация масштабирования */
+}

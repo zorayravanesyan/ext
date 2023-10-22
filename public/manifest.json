@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "USB Light Control",
+  "version": "1.0",
+  "description": "Управление светодиодом через USB.",
+  "permissions": ["usb"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/dom.png",
+      "48": "icons/pcichka.png",
+      "128": "icons/search.png"
+    }
+  }
+} 
